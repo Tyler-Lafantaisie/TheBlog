@@ -1,9 +1,72 @@
 body{
+background-color: #BBBBBB;
+}
+/*Anything to do with the header is here*/
+header{
+    background-color: #484746;
+}
+#logo{
+height: 50px;
+float: left;
+}
+/* The navagation bar is here*/
+.navagation{
+    width: 80%;
+    margin: 0% auto;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both; 
+}
+nav{
+    float: right;
+}
+nav,ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav,li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 5px;
+text-align: center;
+}
+nav,a{
+color: #ffffff;
+text-decoration: none;
+}
+nav,a:hover{
+    color:  #FFC300;
+}
+/*The slideshow is here*/
+.slide{
 
 }
-header{
-    background-color: #9b989a;
-}
 .banner{
-    border-style: bold;
+    border-style: solid;
+    background-color: #EA1CF4;
+
+}
+.main{
+    text-align: center;
+}
+.home{
+
+}
+.about{
+
+}
+.contacts{
+
+}
+.shop{
+
+}
+footer{
+
+}
+.foot{
+    
 }
