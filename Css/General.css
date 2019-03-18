@@ -42,7 +42,8 @@ nav,a:hover{
 }
 /*The slideshow is here*/
 .slide{
-
+    position: absolute;
+    display: block;
 }
 .banner{
     border-style: solid;
@@ -65,7 +66,7 @@ nav,a:hover{
 
 }
 footer{
-
+background-color: #484746;
 }
 .foot{
     
