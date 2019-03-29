@@ -1,0 +1,10 @@
+To connect your Javascript, you will need to  us the <script></script> tags.
+If you are only adding your Javascript via your HTML document, then you will add your Javascript between the <script></script> tags.
+If your using a Javascript document then your going to add your link to the file in the first <script src../js/main.js></script> like that.
+At the end of every line of code add a  semi colon ; this tells Javascript that your done instructing it what to do for now until the next instruction.
+to add a on line comment do //.
+to add a multi line comment do /* */.
+Javascript is case sensitive so make sure your using the same casing that is required for Javascript to do what you ask of it propperly.
+If you want to use more then one word in your variable the you have to camlecase ( the first word is undercase and the second word is uppercase).
+Constant vareables need to be in upper case.
+make sure you do proper spacing so others can read your work.

@@ -1,9 +1,18 @@
+*{
+    marign: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
 background-color: #BBBBBB;
 }
 /*Anything to do with the header is here*/
 header{
     background-color: #484746;
+    width: 100%;
+    height: 80px;
+    display: block;
 }
 #logo{
 height: 50px;
@@ -44,6 +53,7 @@ nav,a:hover{
 .slide{
     position: absolute;
     display: block;
+    
 }
 /*This is where the banner starts*/
 .banner{
@@ -66,10 +76,4 @@ nav,a:hover{
 }
 .shop{
 
-}
-footer{
-background-color: #484746;
-}
-.foot{
-    background-coler: #484746;
 }
